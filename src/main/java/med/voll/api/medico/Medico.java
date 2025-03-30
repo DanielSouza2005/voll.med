@@ -23,14 +23,13 @@ public class Medico {
     private String email;
     private String crm;
     private String telefone;
+    private Boolean ativo;
 
     @Enumerated(EnumType.ORDINAL)
     private Especialidade especialidade;
 
     @Embedded
     private Endereco endereco;
-
-    private Boolean ativo;
 
     public Medico(DadosCadastroMedico dados) {
         this.nome = dados.nome();
