@@ -23,7 +23,7 @@ public class Medico {
     private String crm;
     private String telefone;
 
-    @Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.ORDINAL)
     private Especialidade especialidade;
 
     @Embedded

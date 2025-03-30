@@ -1,0 +1,1 @@
+ALTER TABLE medico MODIFY COLUMN especialidade INT NOT NULL;
