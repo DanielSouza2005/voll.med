@@ -1,0 +1,1 @@
+alter table consulta add column motivo_cancelamento varchar(200);

@@ -32,4 +32,10 @@ public class Consulta {
 
     private LocalDateTime data;
 
+    @Column(name = "motivo_cancelamento")
+    private String motivoCancelamento;
+
+    public void cancelar(String motivoCancelamento) {
+        this.motivoCancelamento = motivoCancelamento;
+    }
 }
